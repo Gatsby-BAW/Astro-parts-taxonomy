@@ -1,0 +1,1794 @@
+{
+  "schema_version": 1,
+  "lifecycle": "draft_review_required",
+  "origin": {
+    "project": "Shopify/product-taxonomy",
+    "fork": "Gatsby-BAW/Astro-parts-taxonomy",
+    "source_path": "data/categories/vp_vehicles_parts.yml",
+    "fork_base_commit": "cd90d2796a6cab4a8975ebb4e9832354752ee525",
+    "source_blob_sha": "52dc5e6635ffeede584239a5b711c03fe58c2aa1",
+    "source_version_at_fork": "2027-01-unstable",
+    "license": "MIT"
+  },
+  "sections": [
+    {
+      "id": "astro:section/engine",
+      "label": "Engine",
+      "groups": [
+        {
+          "id": "astro:group/engine/oil-lubrication",
+          "label": "Oil & Lubrication",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-5-5",
+              "label": "Oil Filters",
+              "source": "shopify",
+              "source_id": "vp-1-4-5-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-5-8",
+              "label": "Oil Pumps",
+              "source": "shopify",
+              "source_id": "vp-1-4-5-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-5-6",
+              "label": "Oil Pans",
+              "source": "shopify",
+              "source_id": "vp-1-4-5-6",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-5-1",
+              "label": "Oil Coolers",
+              "source": "shopify",
+              "source_id": "vp-1-4-5-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-5-7",
+              "label": "Oil Pressure Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-5-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-5-10",
+              "label": "Oil Filter Housings & Adapters",
+              "source": "shopify",
+              "source_id": "vp-1-4-5-10",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-5-9",
+              "label": "Oil Pickup Tubes & Screens",
+              "source": "shopify",
+              "source_id": "vp-1-4-5-9",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-5-3",
+              "label": "Oil Drain Plugs",
+              "source": "shopify",
+              "source_id": "vp-1-4-5-3",
+              "include_source_descendants": true
+            }
+          ]
+        },
+        {
+          "id": "astro:group/engine/internal-engine-components",
+          "label": "Internal Engine Components",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-6-6",
+              "label": "Pistons",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-6",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/piston-rings",
+              "label": "Piston Rings",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/piston-pins",
+              "label": "Piston Pins",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/connecting-rods",
+              "label": "Connecting Rods",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "shopify:vp-1-4-6-2",
+              "label": "Crankshafts",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-6-1",
+              "label": "Camshafts",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-6-3",
+              "label": "Cylinder Heads",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-6-4",
+              "label": "Engine Bearings",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/engine-blocks",
+              "label": "Engine Blocks",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "shopify:vp-1-4-6-9",
+              "label": "Valves",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-9",
+              "include_source_descendants": true
+            }
+          ]
+        },
+        {
+          "id": "astro:group/engine/gaskets-seals",
+          "label": "Gaskets & Seals",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-7-4-5",
+              "label": "Complete Engine Gasket Kits",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-4-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/head-gaskets",
+              "label": "Head Gaskets",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/valve-cover-gaskets",
+              "label": "Valve Cover Gaskets",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/intake-manifold-gaskets",
+              "label": "Intake Manifold Gaskets",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/oil-pan-gaskets",
+              "label": "Oil Pan Gaskets",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/front-crankshaft-seals",
+              "label": "Front Crankshaft Seals",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/rear-main-seals",
+              "label": "Rear Main Seals",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/valve-stem-seals",
+              "label": "Valve Stem Seals",
+              "source": "astro",
+              "status": "proposed"
+            }
+          ]
+        },
+        {
+          "id": "astro:group/engine/timing-valvetrain",
+          "label": "Timing & Valvetrain",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-6-7",
+              "label": "Timing Belts",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-6-8",
+              "label": "Timing Chains",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-7-5",
+              "label": "Engine Timing Components",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-7-5-5",
+              "label": "Variable Valve Timing Components",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-5-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-7-5-3-5",
+              "label": "Timing Chain Tensioners",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-5-3-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/rocker-arms",
+              "label": "Rocker Arms",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/pushrods",
+              "label": "Pushrods",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/valve-lifters",
+              "label": "Valve Lifters",
+              "source": "astro",
+              "status": "proposed"
+            }
+          ]
+        },
+        {
+          "id": "astro:group/engine/air-intake-forced-induction",
+          "label": "Air Intake & Forced Induction",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-23-1",
+              "label": "Engine Air Filters",
+              "source": "shopify",
+              "source_id": "vp-1-4-23-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/turbochargers",
+              "label": "Turbochargers",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/turbocharger-actuators",
+              "label": "Turbocharger Actuators",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/superchargers",
+              "label": "Superchargers",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/intercoolers",
+              "label": "Intercoolers",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/throttle-bodies",
+              "label": "Throttle Bodies",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/intake-manifolds",
+              "label": "Intake Manifolds",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/air-intake-hoses",
+              "label": "Air Intake Hoses",
+              "source": "astro",
+              "status": "proposed"
+            }
+          ]
+        },
+        {
+          "id": "astro:group/engine/engine-assemblies-mounts",
+          "label": "Engine Assemblies & Mounts",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-7-1",
+              "label": "Complete Engines",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-7-7",
+              "label": "Long Blocks",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-7-8",
+              "label": "Short Blocks",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-7-3",
+              "label": "Engine Mounts",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-7-4",
+              "label": "Engine Rebuild Kits",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-7-6",
+              "label": "Engine Valve Covers",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-6",
+              "include_source_descendants": true
+            }
+          ]
+        },
+        {
+          "id": "astro:group/engine/ignition-starting",
+          "label": "Ignition & Starting",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-14-5",
+              "label": "Spark Plugs",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-6-5-2",
+              "label": "Ignition Coils",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-5-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-6-5-3",
+              "label": "Ignition Leads",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-5-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-6-5-1",
+              "label": "Glow Plugs",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-5-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-14-6",
+              "label": "Starters",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-6",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-14-10",
+              "label": "Ignition Switches",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-10",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/cooling-system",
+      "label": "Cooling System",
+      "groups": [
+        {
+          "id": "astro:group/cooling-system/cooling-components",
+          "label": "Cooling Components",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-22-10",
+              "label": "Radiators",
+              "source": "shopify",
+              "source_id": "vp-1-4-22-10",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-22-12",
+              "label": "Water Pumps",
+              "source": "shopify",
+              "source_id": "vp-1-4-22-12",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-22-3",
+              "label": "Thermostats",
+              "source": "shopify",
+              "source_id": "vp-1-4-22-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-22-11",
+              "label": "Radiator Fans",
+              "source": "shopify",
+              "source_id": "vp-1-4-22-11",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-22-13",
+              "label": "Radiator Hoses",
+              "source": "shopify",
+              "source_id": "vp-1-4-22-13",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-22-1",
+              "label": "Radiator Caps",
+              "source": "shopify",
+              "source_id": "vp-1-4-22-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-22-2",
+              "label": "Fan Shrouds",
+              "source": "shopify",
+              "source_id": "vp-1-4-22-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-22-8",
+              "label": "Expansion Tanks",
+              "source": "shopify",
+              "source_id": "vp-1-4-22-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-22-6",
+              "label": "Radiator Overflow Tanks",
+              "source": "shopify",
+              "source_id": "vp-1-4-22-6",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/fuel-injection",
+      "label": "Fuel & Injection",
+      "groups": [
+        {
+          "id": "astro:group/fuel-injection/fuel-delivery",
+          "label": "Fuel Delivery",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-10-4",
+              "label": "Fuel Injectors",
+              "source": "shopify",
+              "source_id": "vp-1-4-10-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-10-7",
+              "label": "Fuel Pumps",
+              "source": "shopify",
+              "source_id": "vp-1-4-10-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-10-3",
+              "label": "Fuel Filters",
+              "source": "shopify",
+              "source_id": "vp-1-4-10-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-10-5",
+              "label": "Fuel Lines",
+              "source": "shopify",
+              "source_id": "vp-1-4-10-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-10-6",
+              "label": "Fuel Pressure Regulators",
+              "source": "shopify",
+              "source_id": "vp-1-4-10-6",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-10-8",
+              "label": "Fuel Tanks",
+              "source": "shopify",
+              "source_id": "vp-1-4-10-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-10-9",
+              "label": "Fuel Rails",
+              "source": "shopify",
+              "source_id": "vp-1-4-10-9",
+              "include_source_descendants": true
+            }
+          ]
+        },
+        {
+          "id": "astro:group/fuel-injection/fuel-controls-repair",
+          "label": "Fuel Controls & Repair",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-16-1",
+              "label": "Fuel Level Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-10-12-2",
+              "label": "Fuel Pump & Sender Assemblies",
+              "source": "shopify",
+              "source_id": "vp-1-4-10-12-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-10-10-2-3",
+              "label": "Fuel Injector Service Kits",
+              "source": "shopify",
+              "source_id": "vp-1-4-10-10-2-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-10-10-1",
+              "label": "Fuel Pump System Kits",
+              "source": "shopify",
+              "source_id": "vp-1-4-10-10-1",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/exhaust-emissions",
+      "label": "Exhaust & Emissions",
+      "groups": [
+        {
+          "id": "astro:group/exhaust-emissions/exhaust-system",
+          "label": "Exhaust System",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-8-2",
+              "label": "Motor Vehicle Catalytic Converters",
+              "source": "shopify",
+              "source_id": "vp-1-4-8-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-8-5",
+              "label": "Motor Vehicle Mufflers",
+              "source": "shopify",
+              "source_id": "vp-1-4-8-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-8-4",
+              "label": "Motor Vehicle Exhaust Pipes & Tubings",
+              "source": "shopify",
+              "source_id": "vp-1-4-8-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-8-1-3",
+              "label": "Exhaust Gaskets",
+              "source": "shopify",
+              "source_id": "vp-1-4-8-1-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-8-3",
+              "label": "Motor Vehicle Exhaust Tips",
+              "source": "shopify",
+              "source_id": "vp-1-4-8-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/exhaust-manifolds",
+              "label": "Exhaust Manifolds",
+              "source": "astro",
+              "status": "proposed"
+            }
+          ]
+        },
+        {
+          "id": "astro:group/exhaust-emissions/emissions-controls",
+          "label": "Emissions Controls",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-16-3",
+              "label": "Oxygen Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/egr-valves",
+              "label": "EGR Valves",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/evap-purge-valves",
+              "label": "EVAP Purge Valves",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/diesel-particulate-filters",
+              "label": "Diesel Particulate Filters (DPF)",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/def-dosing-injectors",
+              "label": "DEF Dosing Injectors",
+              "source": "astro",
+              "status": "proposed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/brakes",
+      "label": "Brakes",
+      "groups": [
+        {
+          "id": "astro:group/brakes/disc-brakes",
+          "label": "Disc Brakes",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-1-7",
+              "label": "Brake Pads",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-1-8",
+              "label": "Brake Rotors",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-1-3",
+              "label": "Brake Calipers",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-1-13",
+              "label": "Brake Hoses",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-13",
+              "include_source_descendants": true
+            }
+          ]
+        },
+        {
+          "id": "astro:group/brakes/hydraulic-drum-abs",
+          "label": "Hydraulic, Drum & ABS",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-1-5",
+              "label": "Brake Lines",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-1-6",
+              "label": "Brake Master Cylinders",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-6",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-1-2",
+              "label": "Brake Boosters",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-1-1",
+              "label": "Anti-Lock Braking System (ABS) Parts",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-1-9",
+              "label": "Brake Drums",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-9",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-1-11",
+              "label": "Brake Shoes",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-11",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-1-12",
+              "label": "Wheel Cylinders",
+              "source": "shopify",
+              "source_id": "vp-1-4-1-12",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/transmission-drivetrain",
+      "label": "Transmission & Drivetrain",
+      "groups": [
+        {
+          "id": "astro:group/transmission-drivetrain/transmission-service",
+          "label": "Transmission & Service",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-19-8",
+              "label": "Transmissions",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-18",
+              "label": "Transmission Filters",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-18",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-5",
+              "label": "Transmission Coolers",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-7",
+              "label": "Transmission Mounts",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-6",
+              "label": "Transmission Fluid",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-6",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/transmission-shift-solenoids",
+              "label": "Transmission Shift Solenoids",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/torque-converters",
+              "label": "Torque Converters",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/transmission-pans",
+              "label": "Transmission Pans",
+              "source": "astro",
+              "status": "proposed"
+            }
+          ]
+        },
+        {
+          "id": "astro:group/transmission-drivetrain/drivetrain-components",
+          "label": "Drivetrain Components",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-19-1",
+              "label": "Axles",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-2",
+              "label": "Clutches",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-3",
+              "label": "Differentials",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-4",
+              "label": "Drive Shafts",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-11",
+              "label": "CV Joints",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-11",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-12",
+              "label": "CV Boots",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-12",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-13",
+              "label": "Flywheels",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-13",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-19-19",
+              "label": "Propshafts",
+              "source": "shopify",
+              "source_id": "vp-1-4-19-19",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/steering",
+      "label": "Steering",
+      "groups": [
+        {
+          "id": "astro:group/steering/steering-components",
+          "label": "Steering Components",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-4-5",
+              "label": "Steering Racks",
+              "source": "shopify",
+              "source_id": "vp-1-4-4-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-4-7",
+              "label": "Steering Tie Rods",
+              "source": "shopify",
+              "source_id": "vp-1-4-4-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-4-4",
+              "label": "Steering Pumps",
+              "source": "shopify",
+              "source_id": "vp-1-4-4-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-4-9",
+              "label": "Steering Gears",
+              "source": "shopify",
+              "source_id": "vp-1-4-4-9",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-4-3",
+              "label": "Steering Columns",
+              "source": "shopify",
+              "source_id": "vp-1-4-4-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-4-10",
+              "label": "Steering Stabilizers",
+              "source": "shopify",
+              "source_id": "vp-1-4-4-10",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-4-10",
+              "label": "Power Steering Pressure Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-4-10",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/suspension",
+      "label": "Suspension",
+      "groups": [
+        {
+          "id": "astro:group/suspension/ride-handling",
+          "label": "Ride & Handling",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-17-1",
+              "label": "Ball Joints",
+              "source": "shopify",
+              "source_id": "vp-1-4-17-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-17-3",
+              "label": "Control Arms",
+              "source": "shopify",
+              "source_id": "vp-1-4-17-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-17-5",
+              "label": "Shock Absorbers",
+              "source": "shopify",
+              "source_id": "vp-1-4-17-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-17-6",
+              "label": "Struts",
+              "source": "shopify",
+              "source_id": "vp-1-4-17-6",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-17-2",
+              "label": "Coil Springs",
+              "source": "shopify",
+              "source_id": "vp-1-4-17-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-17-4",
+              "label": "Leaf Springs",
+              "source": "shopify",
+              "source_id": "vp-1-4-17-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-17-7",
+              "label": "Suspension Bushings",
+              "source": "shopify",
+              "source_id": "vp-1-4-17-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-17-8",
+              "label": "Sway Bars",
+              "source": "shopify",
+              "source_id": "vp-1-4-17-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-17-11",
+              "label": "Track Bars",
+              "source": "shopify",
+              "source_id": "vp-1-4-17-11",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/electrical-charging",
+      "label": "Electrical & Charging",
+      "groups": [
+        {
+          "id": "astro:group/electrical-charging/electrical-components",
+          "label": "Electrical Components",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-14-1",
+              "label": "Alternators",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-14-2",
+              "label": "Batteries",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-14-3",
+              "label": "Fuses",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-14-4",
+              "label": "Relays",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-14-7",
+              "label": "Voltage Regulators",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-14-8",
+              "label": "Wiring Harnesses",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-14-9",
+              "label": "Alternator Parts",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-9",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-14-4-1-1",
+              "label": "Starter Relays",
+              "source": "shopify",
+              "source_id": "vp-1-4-14-4-1-1",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/sensors-electronics",
+      "label": "Sensors & Electronics",
+      "groups": [
+        {
+          "id": "astro:group/sensors-electronics/engine-sensors",
+          "label": "Engine Sensors",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-16-11",
+              "label": "Mass Air Flow (MAF) Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-11",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-14",
+              "label": "Manifold Absolute Pressure (MAP) Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-14",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-19",
+              "label": "Crankshaft Position Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-19",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-16",
+              "label": "Camshaft Position Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-16",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-13",
+              "label": "Coolant Temperature Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-13",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-15",
+              "label": "Air Intake Temperature Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-15",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-12",
+              "label": "Knock Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-12",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-18",
+              "label": "Throttle Position Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-18",
+              "include_source_descendants": true
+            }
+          ]
+        },
+        {
+          "id": "astro:group/sensors-electronics/vehicle-sensors",
+          "label": "Vehicle Sensors",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-16-5-1",
+              "label": "Wheel Speed Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-5-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-5-2",
+              "label": "Transmission Speed Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-5-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-4-9",
+              "label": "Fuel Pressure Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-4-9",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-4-4",
+              "label": "Boost Pressure Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-4-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-4-3",
+              "label": "Barometric Pressure Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-4-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-17",
+              "label": "Tire Pressure Monitoring System (TPMS) Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-17",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/heating-air-conditioning",
+      "label": "Heating & Air Conditioning",
+      "groups": [
+        {
+          "id": "astro:group/heating-air-conditioning/air-conditioning",
+          "label": "Air Conditioning",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-3-1",
+              "label": "AC Compressors",
+              "source": "shopify",
+              "source_id": "vp-1-4-3-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-3-2",
+              "label": "AC Condensers",
+              "source": "shopify",
+              "source_id": "vp-1-4-3-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-3-3",
+              "label": "AC Evaporators",
+              "source": "shopify",
+              "source_id": "vp-1-4-3-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-3-4",
+              "label": "AC Hoses",
+              "source": "shopify",
+              "source_id": "vp-1-4-3-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-3-5",
+              "label": "Blower Motors",
+              "source": "shopify",
+              "source_id": "vp-1-4-3-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-3-6",
+              "label": "Climate Control Modules",
+              "source": "shopify",
+              "source_id": "vp-1-4-3-6",
+              "include_source_descendants": true
+            }
+          ]
+        },
+        {
+          "id": "astro:group/heating-air-conditioning/heating-cabin-air",
+          "label": "Heating & Cabin Air",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-3-8",
+              "label": "Heater Cores",
+              "source": "shopify",
+              "source_id": "vp-1-4-3-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-3-7",
+              "label": "Heater Controls",
+              "source": "shopify",
+              "source_id": "vp-1-4-3-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/cabin-air-filters",
+              "label": "Cabin Air Filters",
+              "source": "astro",
+              "status": "proposed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/wheels-tires-hubs",
+      "label": "Wheels, Tires & Hubs",
+      "groups": [
+        {
+          "id": "astro:group/wheels-tires-hubs/wheels-tires",
+          "label": "Wheels & Tires",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-20-3",
+              "label": "Motor Vehicle Tires",
+              "source": "shopify",
+              "source_id": "vp-1-4-20-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-20-1",
+              "label": "Motor Vehicle Rims & Wheels",
+              "source": "shopify",
+              "source_id": "vp-1-4-20-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-20-4-4",
+              "label": "Wheel Bearings & Hubs",
+              "source": "shopify",
+              "source_id": "vp-1-4-20-4-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-20-2",
+              "label": "Motor Vehicle Tire Accessories",
+              "source": "shopify",
+              "source_id": "vp-1-4-20-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-20-4",
+              "label": "Motor Vehicle Wheel Parts",
+              "source": "shopify",
+              "source_id": "vp-1-4-20-4",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/body-exterior",
+      "label": "Body & Exterior",
+      "groups": [
+        {
+          "id": "astro:group/body-exterior/exterior-parts",
+          "label": "Exterior Parts",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-9-1",
+              "label": "Bumpers",
+              "source": "shopify",
+              "source_id": "vp-1-4-9-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-9-2",
+              "label": "Doors",
+              "source": "shopify",
+              "source_id": "vp-1-4-9-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-9-3",
+              "label": "Fenders",
+              "source": "shopify",
+              "source_id": "vp-1-4-9-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-9-4",
+              "label": "Grilles",
+              "source": "shopify",
+              "source_id": "vp-1-4-9-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-9-5",
+              "label": "Hoods",
+              "source": "shopify",
+              "source_id": "vp-1-4-9-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-9-6",
+              "label": "Quarter Panels",
+              "source": "shopify",
+              "source_id": "vp-1-4-9-6",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-9-8",
+              "label": "Trunks",
+              "source": "shopify",
+              "source_id": "vp-1-4-9-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-9-11",
+              "label": "Door Handles",
+              "source": "shopify",
+              "source_id": "vp-1-4-9-11",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-13",
+              "label": "Motor Vehicle Mirrors",
+              "source": "shopify",
+              "source_id": "vp-1-4-13",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-9-13",
+              "label": "Door Seals",
+              "source": "shopify",
+              "source_id": "vp-1-4-9-13",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/lighting-visibility",
+      "label": "Lighting & Visibility",
+      "groups": [
+        {
+          "id": "astro:group/lighting-visibility/exterior-lighting",
+          "label": "Exterior Lighting",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-12-2",
+              "label": "Headlights",
+              "source": "shopify",
+              "source_id": "vp-1-4-12-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-12-7",
+              "label": "Tail Lights",
+              "source": "shopify",
+              "source_id": "vp-1-4-12-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-12-8",
+              "label": "Turn Signals",
+              "source": "shopify",
+              "source_id": "vp-1-4-12-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-12-1",
+              "label": "Fog Lights",
+              "source": "shopify",
+              "source_id": "vp-1-4-12-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-12-4",
+              "label": "Light Bulbs",
+              "source": "shopify",
+              "source_id": "vp-1-4-12-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-12-6",
+              "label": "Light Switches",
+              "source": "shopify",
+              "source_id": "vp-1-4-12-6",
+              "include_source_descendants": true
+            }
+          ]
+        },
+        {
+          "id": "astro:group/lighting-visibility/wipers",
+          "label": "Wipers",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-21-4-2",
+              "label": "Wiper Blades",
+              "source": "shopify",
+              "source_id": "vp-1-4-21-4-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-21-4-4",
+              "label": "Wiper Motors",
+              "source": "shopify",
+              "source_id": "vp-1-4-21-4-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-21-4-3",
+              "label": "Wiper Arms",
+              "source": "shopify",
+              "source_id": "vp-1-4-21-4-3",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/interior-cabin",
+      "label": "Interior & Cabin",
+      "groups": [
+        {
+          "id": "astro:group/interior-cabin/cabin-parts",
+          "label": "Cabin Parts",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-11-3",
+              "label": "Floor Mats",
+              "source": "shopify",
+              "source_id": "vp-1-4-11-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-11-5",
+              "label": "Seat Covers",
+              "source": "shopify",
+              "source_id": "vp-1-4-11-5",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-11-4",
+              "label": "Pedal Sets",
+              "source": "shopify",
+              "source_id": "vp-1-4-11-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-15",
+              "label": "Motor Vehicle Seating",
+              "source": "shopify",
+              "source_id": "vp-1-4-15",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/dashboards",
+              "label": "Dashboards",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/interior-door-handles",
+              "label": "Interior Door Handles",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "shopify:vp-1-4-21-2",
+              "label": "Window Regulators",
+              "source": "shopify",
+              "source_id": "vp-1-4-21-2",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/diesel-systems",
+      "label": "Diesel Systems",
+      "groups": [
+        {
+          "id": "astro:group/diesel-systems/diesel-components",
+          "label": "Diesel Components",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-7-1-1",
+              "label": "Diesel Engines",
+              "source": "shopify",
+              "source_id": "vp-1-4-7-1-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-6-6-2",
+              "label": "Diesel-Engine Pistons",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-6-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-6-9-10",
+              "label": "Diesel Air Shutoff Valves",
+              "source": "shopify",
+              "source_id": "vp-1-4-6-9-10",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-4-16-8-2-2",
+              "label": "Diesel Particulate Filter Temperature Sensors",
+              "source": "shopify",
+              "source_id": "vp-1-4-16-8-2-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/high-pressure-diesel-injection-pumps",
+              "label": "High-Pressure Diesel Injection Pumps",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/glow-plug-control-modules",
+              "label": "Glow Plug Control Modules",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/fuel-water-separators",
+              "label": "Fuel-Water Separators",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/def-tanks",
+              "label": "DEF Tanks",
+              "source": "astro",
+              "status": "proposed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/ev-hybrid",
+      "label": "EV & Hybrid",
+      "groups": [
+        {
+          "id": "astro:group/ev-hybrid/high-voltage-charging",
+          "label": "High Voltage & Charging",
+          "parts": [
+            {
+              "id": "shopify:vp-1-2-1",
+              "label": "Battery Management Systems",
+              "source": "shopify",
+              "source_id": "vp-1-2-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-2-2",
+              "label": "Charging Cables",
+              "source": "shopify",
+              "source_id": "vp-1-2-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-2-3",
+              "label": "Charging Stations",
+              "source": "shopify",
+              "source_id": "vp-1-2-3",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-2-4",
+              "label": "Connectors & Adapters",
+              "source": "shopify",
+              "source_id": "vp-1-2-4",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-2-6",
+              "label": "Electric Vehicle Batteries",
+              "source": "shopify",
+              "source_id": "vp-1-2-6",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-2-7",
+              "label": "Power Inverters",
+              "source": "shopify",
+              "source_id": "vp-1-2-7",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-2-9",
+              "label": "Regenerative Braking Modules",
+              "source": "shopify",
+              "source_id": "vp-1-2-9",
+              "include_source_descendants": true
+            },
+            {
+              "id": "astro:part/ev-traction-motors",
+              "label": "EV Traction Motors",
+              "source": "astro",
+              "status": "proposed"
+            },
+            {
+              "id": "astro:part/high-voltage-battery-cooling-components",
+              "label": "High-Voltage Battery Cooling Components",
+              "source": "astro",
+              "status": "proposed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/fluids-maintenance",
+      "label": "Fluids & Maintenance",
+      "groups": [
+        {
+          "id": "astro:group/fluids-maintenance/fluids-consumables",
+          "label": "Fluids & Consumables",
+          "parts": [
+            {
+              "id": "shopify:vp-1-5-5-8",
+              "label": "Vehicle Motor Oil",
+              "source": "shopify",
+              "source_id": "vp-1-5-5-8",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-5-5-1",
+              "label": "Vehicle Antifreeze",
+              "source": "shopify",
+              "source_id": "vp-1-5-5-1",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-5-5-6",
+              "label": "Vehicle Greases",
+              "source": "shopify",
+              "source_id": "vp-1-5-5-6",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-5-5-2",
+              "label": "Vehicle Brake Fluid",
+              "source": "shopify",
+              "source_id": "vp-1-5-5-2",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-5-5-10",
+              "label": "Vehicle Power Steering Fluid",
+              "source": "shopify",
+              "source_id": "vp-1-5-5-10",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-5-5-12",
+              "label": "Vehicle Windshield Fluid",
+              "source": "shopify",
+              "source_id": "vp-1-5-5-12",
+              "include_source_descendants": true
+            },
+            {
+              "id": "shopify:vp-1-5-5-5",
+              "label": "Vehicle Fuel System Cleaners",
+              "source": "shopify",
+              "source_id": "vp-1-5-5-5",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro:section/towing-hauling",
+      "label": "Towing & Hauling",
+      "groups": [
+        {
+          "id": "astro:group/towing-hauling/towing-components",
+          "label": "Towing Components",
+          "parts": [
+            {
+              "id": "shopify:vp-1-4-18",
+              "label": "Motor Vehicle Towing",
+              "source": "shopify",
+              "source_id": "vp-1-4-18",
+              "include_source_descendants": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fallback": {
+    "source": "shopify",
+    "source_id": "vp-1-4",
+    "label": "Other Automotive Parts",
+    "purpose": "Preserve access to remaining source categories not featured in the mechanic-first navigation."
+  }
+}
